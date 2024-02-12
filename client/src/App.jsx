@@ -7,10 +7,10 @@ import Login from './pages/Login'
 import axios from 'axios'
 import {Toaster} from 'react-hot-toast'
 import { UserContextProvider } from '../context/userContext.jsx/userContext'
- 
+
 axios.defaults.baseURL= 'http://localhost:8000';
 axios.defaults.withCredentials= true;
-
+console.log('')
 function App() {
 
   return (
